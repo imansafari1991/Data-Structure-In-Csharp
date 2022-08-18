@@ -16,3 +16,6 @@ deleteArrayItemSorted.Do();
 
 DeleteArrayItemUnSorted deleteArrayItemUnSorted=new DeleteArrayItemUnSorted();
 deleteArrayItemUnSorted.Do();
+
+InsertSorted insertSort=new InsertSorted();
+insertSort.Do();
