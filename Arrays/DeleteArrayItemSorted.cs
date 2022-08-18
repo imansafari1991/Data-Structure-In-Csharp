@@ -26,11 +26,14 @@ public class DeleteArrayItemSorted
         int[] a = { 5, 10, 20, 30, 50, 60 };
         int n = a.Length;
         int key = 30;
+        
      var nPrime= DeleteElement(ref a, n, key);
+        a = a[0..nPrime];
      foreach (var i in a)
      {
       Console.WriteLine(i);   
      }
+     
      return nPrime;
     }
 }

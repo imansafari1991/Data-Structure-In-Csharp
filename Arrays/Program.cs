@@ -13,3 +13,6 @@ binarySearchIterative.Do();
 
 DeleteArrayItemSorted deleteArrayItemSorted=new DeleteArrayItemSorted();
 deleteArrayItemSorted.Do();
+
+DeleteArrayItemUnSorted deleteArrayItemUnSorted=new DeleteArrayItemUnSorted();
+deleteArrayItemUnSorted.Do();
