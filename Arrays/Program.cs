@@ -10,3 +10,6 @@ binarySearchRecursive.Do();
 
 BinarySearchIterative binarySearchIterative=new BinarySearchIterative();
 binarySearchIterative.Do();
+
+DeleteArrayItemSorted deleteArrayItemSorted=new DeleteArrayItemSorted();
+deleteArrayItemSorted.Do();
