@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{1F051A90-BAB3-4C24-AC9F-A827EA836785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{1F051A90-BAB3-4C24-AC9F-A827EA836785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArraySorting", "ArraySorting", "{8E26F61B-EC2C-4B24-9D6D-88901B699967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "ArraySorting\QuickSort\QuickSort.csproj", "{727BC2D2-172B-4DD8-9061-964C5458FF23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortedLists", "SortedLists", "{A178F43C-D583-4029-8062-FDE03305E85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook", "SortedLists\AddressBook\AddressBook.csproj", "{5665997F-BACC-4303-908A-50E8E2B999C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,21 @@ Global
 		{1F051A90-BAB3-4C24-AC9F-A827EA836785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F051A90-BAB3-4C24-AC9F-A827EA836785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F051A90-BAB3-4C24-AC9F-A827EA836785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727BC2D2-172B-4DD8-9061-964C5458FF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727BC2D2-172B-4DD8-9061-964C5458FF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727BC2D2-172B-4DD8-9061-964C5458FF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727BC2D2-172B-4DD8-9061-964C5458FF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5665997F-BACC-4303-908A-50E8E2B999C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5665997F-BACC-4303-908A-50E8E2B999C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5665997F-BACC-4303-908A-50E8E2B999C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5665997F-BACC-4303-908A-50E8E2B999C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{727BC2D2-172B-4DD8-9061-964C5458FF23} = {8E26F61B-EC2C-4B24-9D6D-88901B699967}
+		{5665997F-BACC-4303-908A-50E8E2B999C1} = {A178F43C-D583-4029-8062-FDE03305E85F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E12BD093-9469-4E20-82C3-735400C451F0}
